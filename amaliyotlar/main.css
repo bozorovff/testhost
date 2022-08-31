@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13, 5, 54);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.card_block{
+    display: flex;
+    width: 450px;
+    height: 450px;
+    border: 2px solid rgba(102, 100, 100, 0.889);
+    cursor: pointer;
+}
+.card_block:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.img_card{
+    width: 446px;
+    height: 446px;
+    background-image: url('card2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card2{
+    display: none;
+    width: 446px;
+    height: 446px;
+    background-image: url('carta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card3{
+    display: none;
+    width: 446px;
+    height: 446px;
+    background-image: url('card3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card4{
+    display: none;
+    width: 446px;
+    height: 446px;
+    background-image: url('card4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_card5{
+    display: none;
+    width: 446px;
+    height: 446px;
+    background-image: url('card5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 130px;
+    left: 480px;
+    /* right: 400px; */
+    border-radius: 50%;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+    animation: right 1.5s infinite;
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 130px;
+    left: 520px;
+    /* right: 400px; */
+    border-radius: 50%;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+    animation: right2 1.5s infinite;
+}
+.circle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 130px;
+    left: 560px;
+    /* right: 400px; */
+    border-radius: 50%;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+    animation: right3 1.5s infinite;
+}
+.circle4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 130px;
+    left: 600px;
+    /* right: 400px; */
+    border-radius: 50%;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+    animation: right4 1.5s infinite;
+}
+.circle5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 130px;
+    left: 640px;
+    /* right: 400px; */
+    border-radius: 50%;
+    background-color: rgb(118, 116, 116);
+    cursor: pointer;
+    animation: right5 1.5s infinite;
+    
+}
+.cil{
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px){
+    .card_block{
+        width: 360px;
+        height: 450px;
+    }
+    .circle{
+        position: absolute;
+        left: 10px;
+    }
+    .circle2{
+        position: absolute;
+        left: 45px;
+    }
+    .circle3{
+        position: absolute;
+        left: 80px;
+    }
+    .circle4{
+        position: absolute;
+        left: 115px;
+    }
+    .circle5{
+        position: absolute;
+        left: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    .card_block{
+        width: 370px;
+        height: 450px;
+    }
+    .circle{
+        position: absolute;
+        top: 500px;
+        left: 30px;
+    }
+    .circle2{
+        position: absolute;
+        top: 500px;
+        left: 65px;
+    }
+    .circle3{
+        position: absolute;
+        top: 500px;
+        left: 100px;
+    }
+    .circle4{
+        position: absolute;
+        top: 500px;
+        left: 135px;
+    }
+    .circle5{
+        position: absolute;
+        top: 500px;
+        left: 170px;
+    }
+}
